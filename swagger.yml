@@ -1,0 +1,15 @@
+consumes:
+- application/json
+info:
+  title: Swagger spec from code.
+  version: "1.0"
+paths:
+  /:
+    get:
+      operationId: home
+      responses:
+        "200":
+          $ref: '#/responses/ApiResponse'
+produces:
+- application/json
+swagger: "2.0"
